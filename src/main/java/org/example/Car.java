@@ -40,4 +40,12 @@ public class Car {
         else
             throw new RuntimeException("cannot refuel more than capacity");
     }
+
+    public Float getCapacity() {
+        return capacity;
+    }
+
+    public Float getRemaining() {
+        return remaining;
+    }
 }
